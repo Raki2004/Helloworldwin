@@ -17,8 +17,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::FontOptions (32.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("The Game is On", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::red);
+    g.drawText ("Code Red", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
